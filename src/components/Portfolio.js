@@ -58,10 +58,10 @@ const Portfolio = () => {
         <div className="works__img">
           <img src={Netflix} alt="work-1"></img>
           <div className="works__data">
-            <a href={url.share.link} className="works__link">
+            <a href={url.netflix.link} className="works__link">
               <FontAwesomeIcon icon={faLink} size="2x" className="icon" />
             </a>
-            <a href={url.share.github} className="works__link">
+            <a href={url.netflix.github} className="works__link">
               <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
             </a>
             <span className="works__title">Netflix IMDB Movies</span>
@@ -70,10 +70,10 @@ const Portfolio = () => {
         <div className="works__img">
           <img src={Job} alt="work-1"></img>
           <div className="works__data">
-            <a href={url.share.link} className="works__link">
+            <a href={url.job.link} className="works__link">
               <FontAwesomeIcon icon={faLink} size="2x" className="icon" />
             </a>
-            <a href={url.share.github} className="works__link">
+            <a href={url.job.github} className="works__link">
               <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
             </a>
             <span className="works__title">Job Search</span>
@@ -82,10 +82,10 @@ const Portfolio = () => {
         <div className="works__img">
           <img src={Clothing} alt="work-1"></img>
           <div className="works__data">
-            <a href={url.share.link} className="works__link">
+            <a href={url.clothing.link} className="works__link">
               <FontAwesomeIcon icon={faLink} size="2x" className="icon" />
             </a>
-            <a href={url.share.github} className="works__link">
+            <a href={url.clothing.github} className="works__link">
               <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
             </a>
             <span className="works__title">Lighthouse Clothing</span>
@@ -94,10 +94,10 @@ const Portfolio = () => {
         <div className="works__img">
           <img src={MyLinkedIn} alt="work-1"></img>
           <div className="works__data">
-            <a href={url.share.link} className="works__link">
+            <a href={url.linkedIn.link} className="works__link">
               <FontAwesomeIcon icon={faLink} size="2x" className="icon" />
             </a>
-            <a href={url.share.github} className="works__link">
+            <a href={url.linkedIn.github} className="works__link">
               <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
             </a>
             <span className="works__title">My LinkedIn</span>
@@ -106,10 +106,10 @@ const Portfolio = () => {
         <div className="works__img">
           <img src={Facebook} alt="work-1"></img>
           <div className="works__data">
-            <a href={url.share.link} className="works__link">
+            <a href={url.facebook.link} className="works__link">
               <FontAwesomeIcon icon={faLink} size="2x" className="icon" />
             </a>
-            <a href={url.share.github} className="works__link">
+            <a href={url.facebook.github} className="works__link">
               <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
             </a>
             <span className="works__title">My Facebook</span>

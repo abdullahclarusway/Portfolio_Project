@@ -33,12 +33,12 @@ const Footer = () => {
                 <br />
                 <a className="footer-nav">About</a>
                 <br />
-                <a className="footer-nav">Services</a>
+                <a className="footer-nav">Skills</a>
               </div>
               <div className="col">
-                <a className="footer-nav">Experience</a>
-                <br />
                 <a className="footer-nav">Portfolio</a>
+                <br />
+                <a className="footer-nav">Services</a>
                 <br />
                 <a className="footer-nav">Contacts</a>
               </div>
@@ -47,7 +47,7 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"hhttps://www.linkedin.com/in/abdullah-b/"}
+                url={"hhttps://www.facebook.com"}
                 quote={"FullStack Developer"}
                 hashtag="#javascript"
               >

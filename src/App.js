@@ -36,9 +36,9 @@ function App() {
       <Navbar />
       <Header />
       <About />
-      <Services />
-      <Skills />
       <Portfolio />
+      <Skills />
+      <Services />
       <Footer />
     </div>
   );

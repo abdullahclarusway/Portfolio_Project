@@ -28,11 +28,6 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-              {/* <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li> */}
               <li className="nav-item active">
                 <a className="nav-link" href="#">
                   Home <span className="sr-only">(current)</span>
@@ -40,27 +35,27 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">
-                  about
+                  About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#skills">
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#works">
+                  Portfolio
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#services">
                   Services
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
-                  how work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  portfolio
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  contacts
+                <a className="nav-link" href="#footer">
+                  Contacts
                 </a>
               </li>
             </ul>

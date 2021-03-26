@@ -399,14 +399,6 @@ font-family: 'Source Code Pro', monospace;
   overflow: hidden;
   border-radius: 1rem;
   width: 50%;
-  /* padding-right: 1 rem; */
-  /* padding-left: 1rem;
-  padding-right: 1rem; */
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
-  /* padding-left: 1rem !important;
-  padding-right: 1rem !important; */
-  /* background-color: red; */
   display: flex;
   justify-content: center;
   align-items:center ;
@@ -453,3 +445,24 @@ border-radius: 1rem;
   bottom: 0 ;
 }
 
+/************************ FOOTER COMPONENT *********************************/
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-white);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-white);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}

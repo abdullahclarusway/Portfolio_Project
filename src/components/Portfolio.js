@@ -121,28 +121,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
-{
-  /* <span className="section-subtitle">My portfolio</span> */
-}
-{
-  /* <h2 className="section-title">Recent Works</h2> */
-}
-{
-  /* <div className="works__img"> */
-}
-{
-  /* <img src={Share} alt="work-1"> */
-}
-{
-  /* <div className="works__data"> */
-}
-{
-  /* <a href={url.share.link} className="works__link"><FontAwesomeIcon icon={faLink} size="2x" className="icon" /></a> */
-}
-{
-  /* <a href={url.share.github} className="works__link"><FontAwesomeIcon icon={faGithub} size="2x" className="icon" /></a> */
-}
-{
-  /* <span className="works__title">React Share</span> */
-}
